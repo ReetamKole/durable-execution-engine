@@ -1,0 +1,37 @@
+﻿AI Tooling Prompts Log 
+
+1. This is an open-book test. So assignment takers are free to use any GPT tool of their choice.
+
+The first qualification criteria is a running application. So ensure the readme and packaging are correct and you test it.
+
+Github usage is mandatory and codebase/build scripts/configs are to be present there.
+
+Any non-functional items taken care of like adding security layer, performance etc please add in the readme. These earn you bonus points.
+
+2. Design a step-by-step guide for setting up a development environment for a Java project using Maven as the build tool.The guide should include the following elements: 1.**Installation Requirements:** - List the necessary software to install (e.g., Java Development Kit, Maven, Git).- Provide links to official installation guides for each software.2.**Maven Project Structure:** - Explain the standard Maven project directory structure (src/main/java, src/test/java, pom.xml, etc.).- Describe the purpose of each directory and file in the structure.3.**Creating a New Maven Project:** - Provide commands to create a new Maven project using the command line.- Include an example of a simple `pom.xml` file with essential dependencies.
+
+3. error: package com.durableengine.engine does not exist
+	
+4. initialize a Maven project, configure SQLite for database queries, and create a Java file within the 'engine' package to manage the database configuration. Include step-by-step instructions, code snippets, and best practices for setting up the project structure, dependencies, and any necessary configurations for SQLite integration.
+
+5. java version is 21, make changes on pom.xml accordingly
+
+6. Create a complete, runnable app.java file that tests database creation. The assistant should include all necessary imports, a main method, and database connection logic that attempts to create a database and reports success or failure.
+
+7.Successfully generated the SQLite database file but encountered SLF4J binding warnings. what are those warning?
+
+8.Create a Java file named asWorkflowEngine.java that implements a workflow engine capable of:
+Executing multiple workflows in parallel using thread pools or async execution
+Storing workflow definitions, execution states, and results in SQLite
+Managing task dependencies and execution order within workflows
+Tracking workflow progress and status in the database
+Handling errors and retries with database logging
+
+
+
+9. build the required onboarding example java file
+
+10. Update app.java to make it suitable for testing by implementing best practices that enable unit tests, integration tests, or other testing methodologies to be written against it effectively.
+
+
+	
