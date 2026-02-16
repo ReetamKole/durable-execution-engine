@@ -165,21 +165,3 @@ The local environment must have write permissions to the project directory in or
 
 ---
 
-## 5. Prompts Log
-
-The following table documents the interaction history with AI tooling used to build this project.
-
-| Phase | Title | Formalized Prompt Description |
-|------:|-------|-------------------------------|
-| 1 | Initialization | Provided the assignment constraints for building a Native Durable Execution Engine. Requested an initial architectural strategy, technology stack recommendations, and a step-by-step implementation plan. |
-| 2 | Environment Setup | Selected Java as the implementation language. Requested a comprehensive guide to initialize the local development environment, set up the Maven project structure, and configure version control with Git/GitHub. |
-| 3 | Project Scaffolding | Confirmed successful completion of the initial Maven workspace setup and package creation. Requested the next steps for implementing the core database schema and dependencies. |
-| 4 | DB Configuration | Clarified the target JDK version is Java 21. Requested a test implementation for the SQLite database connection and initialization to ensure the persistence layer is functioning correctly. |
-| 5 | Troubleshooting Builds | Encountered classpath and compilation errors (package does not exist) while attempting to execute the multi-package Java application. Provided the error logs and requested troubleshooting assistance for build execution. |
-| 6 | IDE Integration | Inquired about configuring VS Code to properly recognize the Maven project lifecycle, specifically seeking a way to build and run the application directly via the IDE UI rather than the command line. |
-| 7 | Warning Resolution | Successfully generated the SQLite database file but encountered SLF4J binding warnings. Provided the console output to verify correct execution and requested guidance on resolving the logger warnings. |
-| 8 | Core Engine Logic | Approved the core `WorkflowEngine` implementation. Requested a test harness within `App.java` to simulate side-effects and verify the engine’s memoization and durability characteristics upon application restart. |
-| 9 | Concurrency | Confirmed the durability test successfully skipped previously executed steps. Requested the next phase of implementation, specifically addressing the concurrency requirements (parallel steps) and the employee onboarding workflow. |
-| 10 | Final Verification | Successfully validated the parallel execution and fault-recovery simulation. Requested the final project deliverables, including required documentation, sequence tracking methodology, and explanations of thread-safety design decisions. |
-| 11 | Documentation Update | Provided a new rubric image requiring specific README sections (Setup, Architecture, Design/Backpressure, Assumptions, Prompts) and requested an updated README excluding the architecture diagram. |
-| 12 | Consolidation | Requested that all required sections, including the AI tooling prompts, be consolidated strictly into a single README file block. |
